@@ -1,0 +1,98 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+
+
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g4168079610MethodDeclarations.h"
+
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::.ctor()
+#define Dictionary_2__ctor_m3267242532(__this, method) ((  void (*) (Dictionary_2_t1543031907 *, const MethodInfo*))Dictionary_2__ctor_m1859298524_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
+#define Dictionary_2__ctor_m1626377168(__this, ___comparer0, method) ((  void (*) (Dictionary_2_t1543031907 *, Il2CppObject*, const MethodInfo*))Dictionary_2__ctor_m3610002771_gshared)(__this, ___comparer0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::.ctor(System.Int32)
+#define Dictionary_2__ctor_m12990378(__this, ___capacity0, method) ((  void (*) (Dictionary_2_t1543031907 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m3273912365_gshared)(__this, ___capacity0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::.ctor(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
+#define Dictionary_2__ctor_m4015799955(__this, ___capacity0, ___comparer1, method) ((  void (*) (Dictionary_2_t1543031907 *, int32_t, Il2CppObject*, const MethodInfo*))Dictionary_2__ctor_m2352173552_gshared)(__this, ___capacity0, ___comparer1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+#define Dictionary_2__ctor_m1209739674(__this, ___info0, ___context1, method) ((  void (*) (Dictionary_2_t1543031907 *, SerializationInfo_t2185721892 *, StreamingContext_t2761351129 , const MethodInfo*))Dictionary_2__ctor_m1549788189_gshared)(__this, ___info0, ___context1, method)
+// System.Object System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.IDictionary.get_Item(System.Object)
+#define Dictionary_2_System_Collections_IDictionary_get_Item_m3082047557(__this, ___key0, method) ((  Il2CppObject * (*) (Dictionary_2_t1543031907 *, Il2CppObject *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m2843055522_gshared)(__this, ___key0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.IDictionary.set_Item(System.Object,System.Object)
+#define Dictionary_2_System_Collections_IDictionary_set_Item_m133060596(__this, ___key0, ___value1, method) ((  void (*) (Dictionary_2_t1543031907 *, Il2CppObject *, Il2CppObject *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m2020057553_gshared)(__this, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.IDictionary.Add(System.Object,System.Object)
+#define Dictionary_2_System_Collections_IDictionary_Add_m2509618653(__this, ___key0, ___value1, method) ((  void (*) (Dictionary_2_t1543031907 *, Il2CppObject *, Il2CppObject *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m2894265824_gshared)(__this, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.IDictionary.Remove(System.Object)
+#define Dictionary_2_System_Collections_IDictionary_Remove_m773274162(__this, ___key0, method) ((  void (*) (Dictionary_2_t1543031907 *, Il2CppObject *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m127000079_gshared)(__this, ___key0, method)
+// System.Object System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.ICollection.get_SyncRoot()
+#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m1609622961(__this, method) ((  Il2CppObject * (*) (Dictionary_2_t1543031907 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m4065571764_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m2432007235(__this, method) ((  bool (*) (Dictionary_2_t1543031907 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m840305542_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m502441416(__this, ___keyValuePair0, method) ((  void (*) (Dictionary_2_t1543031907 *, KeyValuePair_2_t1441812613 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2185230117_gshared)(__this, ___keyValuePair0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m1043057342(__this, ___keyValuePair0, method) ((  bool (*) (Dictionary_2_t1543031907 *, KeyValuePair_2_t1441812613 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m3713378305_gshared)(__this, ___keyValuePair0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m2427237292(__this, ___array0, ___index1, method) ((  void (*) (Dictionary_2_t1543031907 *, KeyValuePair_2U5BU5D_t3312126920*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m4220340169_gshared)(__this, ___array0, ___index1, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m587827555(__this, ___keyValuePair0, method) ((  bool (*) (Dictionary_2_t1543031907 *, KeyValuePair_2_t1441812613 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m3330268006_gshared)(__this, ___keyValuePair0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define Dictionary_2_System_Collections_ICollection_CopyTo_m1284511627(__this, ___array0, ___index1, method) ((  void (*) (Dictionary_2_t1543031907 *, Il2CppArray *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m323672040_gshared)(__this, ___array0, ___index1, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.IEnumerable.GetEnumerator()
+#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m457432538(__this, method) ((  Il2CppObject * (*) (Dictionary_2_t1543031907 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m464503287_gshared)(__this, method)
+// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
+#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m2658631377(__this, method) ((  Il2CppObject* (*) (Dictionary_2_t1543031907 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m1289662318_gshared)(__this, method)
+// System.Collections.IDictionaryEnumerator System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::System.Collections.IDictionary.GetEnumerator()
+#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m3057461534(__this, method) ((  Il2CppObject * (*) (Dictionary_2_t1543031907 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m3187662523_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::get_Count()
+#define Dictionary_2_get_Count_m1414424697(__this, method) ((  int32_t (*) (Dictionary_2_t1543031907 *, const MethodInfo*))Dictionary_2_get_Count_m655926012_gshared)(__this, method)
+// TValue System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::get_Item(TKey)
+#define Dictionary_2_get_Item_m590272238(__this, ___key0, method) ((  ImageTargetBaseBehaviour_t1545768668 * (*) (Dictionary_2_t1543031907 *, int32_t, const MethodInfo*))Dictionary_2_get_Item_m542157067_gshared)(__this, ___key0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::set_Item(TKey,TValue)
+#define Dictionary_2_set_Item_m3765556117(__this, ___key0, ___value1, method) ((  void (*) (Dictionary_2_t1543031907 *, int32_t, ImageTargetBaseBehaviour_t1545768668 *, const MethodInfo*))Dictionary_2_set_Item_m3219597724_gshared)(__this, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
+#define Dictionary_2_Init_m167251793(__this, ___capacity0, ___hcp1, method) ((  void (*) (Dictionary_2_t1543031907 *, int32_t, Il2CppObject*, const MethodInfo*))Dictionary_2_Init_m3161627732_gshared)(__this, ___capacity0, ___hcp1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::InitArrays(System.Int32)
+#define Dictionary_2_InitArrays_m2904696966(__this, ___size0, method) ((  void (*) (Dictionary_2_t1543031907 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m3089254883_gshared)(__this, ___size0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::CopyToCheck(System.Array,System.Int32)
+#define Dictionary_2_CopyToCheck_m647537154(__this, ___array0, ___index1, method) ((  void (*) (Dictionary_2_t1543031907 *, Il2CppArray *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m3741359263_gshared)(__this, ___array0, ___index1, method)
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::make_pair(TKey,TValue)
+#define Dictionary_2_make_pair_m1364616598(__this /* static, unused */, ___key0, ___value1, method) ((  KeyValuePair_2_t1441812613  (*) (Il2CppObject * /* static, unused */, int32_t, ImageTargetBaseBehaviour_t1545768668 *, const MethodInfo*))Dictionary_2_make_pair_m2338171699_gshared)(__this /* static, unused */, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
+#define Dictionary_2_CopyTo_m3102397325(__this, ___array0, ___index1, method) ((  void (*) (Dictionary_2_t1543031907 *, KeyValuePair_2U5BU5D_t3312126920*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m2503627344_gshared)(__this, ___array0, ___index1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::Resize()
+#define Dictionary_2_Resize_m257123199(__this, method) ((  void (*) (Dictionary_2_t1543031907 *, const MethodInfo*))Dictionary_2_Resize_m1861476060_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::Add(TKey,TValue)
+#define Dictionary_2_Add_m121141500(__this, ___key0, ___value1, method) ((  void (*) (Dictionary_2_t1543031907 *, int32_t, ImageTargetBaseBehaviour_t1545768668 *, const MethodInfo*))Dictionary_2_Add_m2232043353_gshared)(__this, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::Clear()
+#define Dictionary_2_Clear_m2538814468(__this, method) ((  void (*) (Dictionary_2_t1543031907 *, const MethodInfo*))Dictionary_2_Clear_m3560399111_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::ContainsKey(TKey)
+#define Dictionary_2_ContainsKey_m3194090030(__this, ___key0, method) ((  bool (*) (Dictionary_2_t1543031907 *, int32_t, const MethodInfo*))Dictionary_2_ContainsKey_m2612169713_gshared)(__this, ___key0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+#define Dictionary_2_GetObjectData_m2756589303(__this, ___info0, ___context1, method) ((  void (*) (Dictionary_2_t1543031907 *, SerializationInfo_t2185721892 *, StreamingContext_t2761351129 , const MethodInfo*))Dictionary_2_GetObjectData_m3426598522_gshared)(__this, ___info0, ___context1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::OnDeserialization(System.Object)
+#define Dictionary_2_OnDeserialization_m860469197(__this, ___sender0, method) ((  void (*) (Dictionary_2_t1543031907 *, Il2CppObject *, const MethodInfo*))Dictionary_2_OnDeserialization_m3983879210_gshared)(__this, ___sender0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::Remove(TKey)
+#define Dictionary_2_Remove_m3249076937(__this, ___key0, method) ((  bool (*) (Dictionary_2_t1543031907 *, int32_t, const MethodInfo*))Dictionary_2_Remove_m183515743_gshared)(__this, ___key0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::TryGetValue(TKey,TValue&)
+#define Dictionary_2_TryGetValue_m2574035339(__this, ___key0, ___value1, method) ((  bool (*) (Dictionary_2_t1543031907 *, int32_t, ImageTargetBaseBehaviour_t1545768668 **, const MethodInfo*))Dictionary_2_TryGetValue_m2515559242_gshared)(__this, ___key0, ___value1, method)
+// TKey System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::ToTKey(System.Object)
+#define Dictionary_2_ToTKey_m1911457987(__this, ___key0, method) ((  int32_t (*) (Dictionary_2_t1543031907 *, Il2CppObject *, const MethodInfo*))Dictionary_2_ToTKey_m844610694_gshared)(__this, ___key0, method)
+// TValue System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::ToTValue(System.Object)
+#define Dictionary_2_ToTValue_m3299275359(__this, ___value0, method) ((  ImageTargetBaseBehaviour_t1545768668 * (*) (Dictionary_2_t1543031907 *, Il2CppObject *, const MethodInfo*))Dictionary_2_ToTValue_m3888328930_gshared)(__this, ___value0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+#define Dictionary_2_ContainsKeyValuePair_m2653896677(__this, ___pair0, method) ((  bool (*) (Dictionary_2_t1543031907 *, KeyValuePair_2_t1441812613 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m139391042_gshared)(__this, ___pair0, method)
+// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::GetEnumerator()
+#define Dictionary_2_GetEnumerator_m3778933028(__this, method) ((  Enumerator_t2860355299  (*) (Dictionary_2_t1543031907 *, const MethodInfo*))Dictionary_2_GetEnumerator_m3720989159_gshared)(__this, method)
+// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<System.Int32,EasyAR.ImageTargetBaseBehaviour>::<CopyTo>m__0(TKey,TValue)
+#define Dictionary_2_U3CCopyToU3Em__0_m1639143579(__this /* static, unused */, ___key0, ___value1, method) ((  DictionaryEntry_t1751606614  (*) (Il2CppObject * /* static, unused */, int32_t, ImageTargetBaseBehaviour_t1545768668 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m2937104030_gshared)(__this /* static, unused */, ___key0, ___value1, method)

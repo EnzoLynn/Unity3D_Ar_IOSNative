@@ -1,0 +1,96 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+
+
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1244034627MethodDeclarations.h"
+
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::.ctor()
+#define List_1__ctor_m1517199543(__this, method) ((  void (*) (List_1_t3029277309 *, const MethodInfo*))List_1__ctor_m3048469268_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1__ctor_m3013024093(__this, ___collection0, method) ((  void (*) (List_1_t3029277309 *, Il2CppObject*, const MethodInfo*))List_1__ctor_m1160795371_gshared)(__this, ___collection0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::.ctor(System.Int32)
+#define List_1__ctor_m2923834419(__this, ___capacity0, method) ((  void (*) (List_1_t3029277309 *, int32_t, const MethodInfo*))List_1__ctor_m3643386469_gshared)(__this, ___capacity0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::.cctor()
+#define List_1__cctor_m1139854859(__this /* static, unused */, method) ((  void (*) (Il2CppObject * /* static, unused */, const MethodInfo*))List_1__cctor_m3826137881_gshared)(__this /* static, unused */, method)
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<EasyAR.Target>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m48223924(__this, method) ((  Il2CppObject* (*) (List_1_t3029277309 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m2808422246_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define List_1_System_Collections_ICollection_CopyTo_m895970722(__this, ___array0, ___arrayIndex1, method) ((  void (*) (List_1_t3029277309 *, Il2CppArray *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m4034025648_gshared)(__this, ___array0, ___arrayIndex1, method)
+// System.Collections.IEnumerator System.Collections.Generic.List`1<EasyAR.Target>::System.Collections.IEnumerable.GetEnumerator()
+#define List_1_System_Collections_IEnumerable_GetEnumerator_m1678722845(__this, method) ((  Il2CppObject * (*) (List_1_t3029277309 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m1841330603_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<EasyAR.Target>::System.Collections.IList.Add(System.Object)
+#define List_1_System_Collections_IList_Add_m3640049396(__this, ___item0, method) ((  int32_t (*) (List_1_t3029277309 *, Il2CppObject *, const MethodInfo*))List_1_System_Collections_IList_Add_m3794749222_gshared)(__this, ___item0, method)
+// System.Boolean System.Collections.Generic.List`1<EasyAR.Target>::System.Collections.IList.Contains(System.Object)
+#define List_1_System_Collections_IList_Contains_m1012400472(__this, ___item0, method) ((  bool (*) (List_1_t3029277309 *, Il2CppObject *, const MethodInfo*))List_1_System_Collections_IList_Contains_m2659633254_gshared)(__this, ___item0, method)
+// System.Int32 System.Collections.Generic.List`1<EasyAR.Target>::System.Collections.IList.IndexOf(System.Object)
+#define List_1_System_Collections_IList_IndexOf_m2685819724(__this, ___item0, method) ((  int32_t (*) (List_1_t3029277309 *, Il2CppObject *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m3431692926_gshared)(__this, ___item0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::System.Collections.IList.Insert(System.Int32,System.Object)
+#define List_1_System_Collections_IList_Insert_m3806730615(__this, ___index0, ___item1, method) ((  void (*) (List_1_t3029277309 *, int32_t, Il2CppObject *, const MethodInfo*))List_1_System_Collections_IList_Insert_m2067529129_gshared)(__this, ___index0, ___item1, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::System.Collections.IList.Remove(System.Object)
+#define List_1_System_Collections_IList_Remove_m1481538129(__this, ___item0, method) ((  void (*) (List_1_t3029277309 *, Il2CppObject *, const MethodInfo*))List_1_System_Collections_IList_Remove_m1644145887_gshared)(__this, ___item0, method)
+// System.Boolean System.Collections.Generic.List`1<EasyAR.Target>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m1632904025(__this, method) ((  bool (*) (List_1_t3029277309 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m1299706087_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1<EasyAR.Target>::System.Collections.ICollection.get_SyncRoot()
+#define List_1_System_Collections_ICollection_get_SyncRoot_m1606729712(__this, method) ((  Il2CppObject * (*) (List_1_t3029277309 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m4244374434_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1<EasyAR.Target>::System.Collections.IList.get_Item(System.Int32)
+#define List_1_System_Collections_IList_get_Item_m3239605623(__this, ___index0, method) ((  Il2CppObject * (*) (List_1_t3029277309 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m3985478825_gshared)(__this, ___index0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::System.Collections.IList.set_Item(System.Int32,System.Object)
+#define List_1_System_Collections_IList_set_Item_m3864904590(__this, ___index0, ___value1, method) ((  void (*) (List_1_t3029277309 *, int32_t, Il2CppObject *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m3234554688_gshared)(__this, ___index0, ___value1, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::Add(T)
+#define List_1_Add_m1211560359(__this, ___item0, method) ((  void (*) (List_1_t3029277309 *, Target_t1661091757 *, const MethodInfo*))List_1_Add_m642669291_gshared)(__this, ___item0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::GrowIfNeeded(System.Int32)
+#define List_1_GrowIfNeeded_m2011979800(__this, ___newCount0, method) ((  void (*) (List_1_t3029277309 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m4122600870_gshared)(__this, ___newCount0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::AddCollection(System.Collections.Generic.ICollection`1<T>)
+#define List_1_AddCollection_m2811647766(__this, ___collection0, method) ((  void (*) (List_1_t3029277309 *, Il2CppObject*, const MethodInfo*))List_1_AddCollection_m2478449828_gshared)(__this, ___collection0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_AddEnumerable_m2072619990(__this, ___enumerable0, method) ((  void (*) (List_1_t3029277309 *, Il2CppObject*, const MethodInfo*))List_1_AddEnumerable_m1739422052_gshared)(__this, ___enumerable0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_AddRange_m235189505(__this, ___collection0, method) ((  void (*) (List_1_t3029277309 *, Il2CppObject*, const MethodInfo*))List_1_AddRange_m2229151411_gshared)(__this, ___collection0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::Clear()
+#define List_1_Clear_m1476326925(__this, method) ((  void (*) (List_1_t3029277309 *, const MethodInfo*))List_1_Clear_m454602559_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<EasyAR.Target>::Contains(T)
+#define List_1_Contains_m959243451(__this, ___item0, method) ((  bool (*) (List_1_t3029277309 *, Target_t1661091757 *, const MethodInfo*))List_1_Contains_m4186092781_gshared)(__this, ___item0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::CopyTo(T[],System.Int32)
+#define List_1_CopyTo_m1791749389(__this, ___array0, ___arrayIndex1, method) ((  void (*) (List_1_t3029277309 *, TargetU5BU5D_t975827712*, int32_t, const MethodInfo*))List_1_CopyTo_m3988356635_gshared)(__this, ___array0, ___arrayIndex1, method)
+// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<EasyAR.Target>::GetEnumerator()
+#define List_1_GetEnumerator_m1526813730(__this, method) ((  Enumerator_t3048950079  (*) (List_1_t3029277309 *, const MethodInfo*))List_1_GetEnumerator_m2326457258_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<EasyAR.Target>::IndexOf(T)
+#define List_1_IndexOf_m1509664081(__this, ___item0, method) ((  int32_t (*) (List_1_t3029277309 *, Target_t1661091757 *, const MethodInfo*))List_1_IndexOf_m1752303327_gshared)(__this, ___item0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::Shift(System.Int32,System.Int32)
+#define List_1_Shift_m3193988708(__this, ___start0, ___delta1, method) ((  void (*) (List_1_t3029277309 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m3807054194_gshared)(__this, ___start0, ___delta1, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::CheckIndex(System.Int32)
+#define List_1_CheckIndex_m1538116573(__this, ___index0, method) ((  void (*) (List_1_t3029277309 *, int32_t, const MethodInfo*))List_1_CheckIndex_m3734723819_gshared)(__this, ___index0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::Insert(System.Int32,T)
+#define List_1_Insert_m3433816772(__this, ___index0, ___item1, method) ((  void (*) (List_1_t3029277309 *, int32_t, Target_t1661091757 *, const MethodInfo*))List_1_Insert_m3427163986_gshared)(__this, ___index0, ___item1, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
+#define List_1_CheckCollection_m985742393(__this, ___collection0, method) ((  void (*) (List_1_t3029277309 *, Il2CppObject*, const MethodInfo*))List_1_CheckCollection_m2905071175_gshared)(__this, ___collection0, method)
+// System.Boolean System.Collections.Generic.List`1<EasyAR.Target>::Remove(T)
+#define List_1_Remove_m1077516150(__this, ___item0, method) ((  bool (*) (List_1_t3029277309 *, Target_t1661091757 *, const MethodInfo*))List_1_Remove_m2747911208_gshared)(__this, ___item0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::RemoveAt(System.Int32)
+#define List_1_RemoveAt_m1307669642(__this, ___index0, method) ((  void (*) (List_1_t3029277309 *, int32_t, const MethodInfo*))List_1_RemoveAt_m1301016856_gshared)(__this, ___index0, method)
+// T[] System.Collections.Generic.List`1<EasyAR.Target>::ToArray()
+#define List_1_ToArray_m2863160993(__this, method) ((  TargetU5BU5D_t975827712* (*) (List_1_t3029277309 *, const MethodInfo*))List_1_ToArray_m238588755_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::TrimExcess()
+#define List_1_TrimExcess_m1203299545(__this, method) ((  void (*) (List_1_t3029277309 *, const MethodInfo*))List_1_TrimExcess_m2451380967_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<EasyAR.Target>::get_Capacity()
+#define List_1_get_Capacity_m3728116993(__this, method) ((  int32_t (*) (List_1_t3029277309 *, const MethodInfo*))List_1_get_Capacity_m543520655_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::set_Capacity(System.Int32)
+#define List_1_set_Capacity_m3517135914(__this, ___value0, method) ((  void (*) (List_1_t3029277309 *, int32_t, const MethodInfo*))List_1_set_Capacity_m1332789688_gshared)(__this, ___value0, method)
+// System.Int32 System.Collections.Generic.List`1<EasyAR.Target>::get_Count()
+#define List_1_get_Count_m3667221066(__this, method) ((  int32_t (*) (List_1_t3029277309 *, const MethodInfo*))List_1_get_Count_m2599103100_gshared)(__this, method)
+// T System.Collections.Generic.List`1<EasyAR.Target>::get_Item(System.Int32)
+#define List_1_get_Item_m2778054158(__this, ___index0, method) ((  Target_t1661091757 * (*) (List_1_t3029277309 *, int32_t, const MethodInfo*))List_1_get_Item_m2771401372_gshared)(__this, ___index0, method)
+// System.Void System.Collections.Generic.List`1<EasyAR.Target>::set_Item(System.Int32,T)
+#define List_1_set_Item_m3172631195(__this, ___index0, ___value1, method) ((  void (*) (List_1_t3029277309 *, int32_t, Target_t1661091757 *, const MethodInfo*))List_1_set_Item_m1074271145_gshared)(__this, ___index0, ___value1, method)

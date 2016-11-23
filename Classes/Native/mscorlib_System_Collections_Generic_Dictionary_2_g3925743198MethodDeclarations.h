@@ -1,0 +1,98 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+
+
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g4165960911MethodDeclarations.h"
+
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::.ctor()
+#define Dictionary_2__ctor_m3750922101(__this, method) ((  void (*) (Dictionary_2_t3925743198 *, const MethodInfo*))Dictionary_2__ctor_m2574392191_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
+#define Dictionary_2__ctor_m166263329(__this, ___comparer0, method) ((  void (*) (Dictionary_2_t3925743198 *, Il2CppObject*, const MethodInfo*))Dictionary_2__ctor_m981188726_gshared)(__this, ___comparer0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::.ctor(System.Int32)
+#define Dictionary_2__ctor_m3030387451(__this, ___capacity0, method) ((  void (*) (Dictionary_2_t3925743198 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m967805520_gshared)(__this, ___capacity0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::.ctor(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
+#define Dictionary_2__ctor_m1563646946(__this, ___capacity0, ___comparer1, method) ((  void (*) (Dictionary_2_t3925743198 *, int32_t, Il2CppObject*, const MethodInfo*))Dictionary_2__ctor_m2994096045_gshared)(__this, ___capacity0, ___comparer1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+#define Dictionary_2__ctor_m3929748203(__this, ___info0, ___context1, method) ((  void (*) (Dictionary_2_t3925743198 *, SerializationInfo_t2185721892 *, StreamingContext_t2761351129 , const MethodInfo*))Dictionary_2__ctor_m859717696_gshared)(__this, ___info0, ___context1, method)
+// System.Object System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.IDictionary.get_Item(System.Object)
+#define Dictionary_2_System_Collections_IDictionary_get_Item_m1051745236(__this, ___key0, method) ((  Il2CppObject * (*) (Dictionary_2_t3925743198 *, Il2CppObject *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m2104722729_gshared)(__this, ___key0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.IDictionary.set_Item(System.Object,System.Object)
+#define Dictionary_2_System_Collections_IDictionary_set_Item_m3486414019(__this, ___key0, ___value1, method) ((  void (*) (Dictionary_2_t3925743198 *, Il2CppObject *, Il2CppObject *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m224198158_gshared)(__this, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.IDictionary.Add(System.Object,System.Object)
+#define Dictionary_2_System_Collections_IDictionary_Add_m354196398(__this, ___key0, ___value1, method) ((  void (*) (Dictionary_2_t3925743198 *, Il2CppObject *, Il2CppObject *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m2542415747_gshared)(__this, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.IDictionary.Remove(System.Object)
+#define Dictionary_2_System_Collections_IDictionary_Remove_m2668680449(__this, ___key0, method) ((  void (*) (Dictionary_2_t3925743198 *, Il2CppObject *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m1169773644_gshared)(__this, ___key0, method)
+// System.Object System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.ICollection.get_SyncRoot()
+#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m1637993794(__this, method) ((  Il2CppObject * (*) (Dictionary_2_t3925743198 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m1621876813_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m1898334036(__this, method) ((  bool (*) (Dictionary_2_t3925743198 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m1796715301_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m3388558615(__this, ___keyValuePair0, method) ((  void (*) (Dictionary_2_t3925743198 *, KeyValuePair_2_t3824523904 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2909104866_gshared)(__this, ___keyValuePair0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m329109455(__this, ___keyValuePair0, method) ((  bool (*) (Dictionary_2_t3925743198 *, KeyValuePair_2_t3824523904 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m709096864_gshared)(__this, ___keyValuePair0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m613139771(__this, ___array0, ___index1, method) ((  void (*) (Dictionary_2_t3925743198 *, KeyValuePair_2U5BU5D_t1340091265*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m3894814278_gshared)(__this, ___array0, ___index1, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m3635125940(__this, ___keyValuePair0, method) ((  bool (*) (Dictionary_2_t3925743198 *, KeyValuePair_2_t3824523904 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m194184389_gshared)(__this, ___keyValuePair0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+#define Dictionary_2_System_Collections_ICollection_CopyTo_m3185898458(__this, ___array0, ___index1, method) ((  void (*) (Dictionary_2_t3925743198 *, Il2CppArray *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m2301221541_gshared)(__this, ___array0, ___index1, method)
+// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.IEnumerable.GetEnumerator()
+#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m2095869673(__this, method) ((  Il2CppObject * (*) (Dictionary_2_t3925743198 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m2938951648_gshared)(__this, method)
+// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
+#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m2407746336(__this, method) ((  Il2CppObject* (*) (Dictionary_2_t3925743198 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m1726557405_gshared)(__this, method)
+// System.Collections.IDictionaryEnumerator System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::System.Collections.IDictionary.GetEnumerator()
+#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m3650698029(__this, method) ((  Il2CppObject * (*) (Dictionary_2_t3925743198 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m218971000_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::get_Count()
+#define Dictionary_2_get_Count_m1332143818(__this, method) ((  int32_t (*) (Dictionary_2_t3925743198 *, const MethodInfo*))Dictionary_2_get_Count_m343051111_gshared)(__this, method)
+// TValue System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::get_Item(TKey)
+#define Dictionary_2_get_Item_m641709431(__this, ___key0, method) ((  VideoPlayer_t3930598658 * (*) (Dictionary_2_t3925743198 *, IntPtr_t, const MethodInfo*))Dictionary_2_get_Item_m3507411876_gshared)(__this, ___key0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::set_Item(TKey,TValue)
+#define Dictionary_2_set_Item_m1120389354(__this, ___key0, ___value1, method) ((  void (*) (Dictionary_2_t3925743198 *, IntPtr_t, VideoPlayer_t3930598658 *, const MethodInfo*))Dictionary_2_set_Item_m3254044415_gshared)(__this, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
+#define Dictionary_2_Init_m3274738722(__this, ___capacity0, ___hcp1, method) ((  void (*) (Dictionary_2_t3925743198 *, int32_t, Il2CppObject*, const MethodInfo*))Dictionary_2_Init_m827030263_gshared)(__this, ___capacity0, ___hcp1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::InitArrays(System.Int32)
+#define Dictionary_2_InitArrays_m296533973(__this, ___size0, method) ((  void (*) (Dictionary_2_t3925743198 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m2793442720_gshared)(__this, ___size0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::CopyToCheck(System.Array,System.Int32)
+#define Dictionary_2_CopyToCheck_m4161061649(__this, ___array0, ___index1, method) ((  void (*) (Dictionary_2_t3925743198 *, Il2CppArray *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m346755484_gshared)(__this, ___array0, ___index1, method)
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::make_pair(TKey,TValue)
+#define Dictionary_2_make_pair_m977746597(__this /* static, unused */, ___key0, ___value1, method) ((  KeyValuePair_2_t3824523904  (*) (Il2CppObject * /* static, unused */, IntPtr_t, VideoPlayer_t3930598658 *, const MethodInfo*))Dictionary_2_make_pair_m19306728_gshared)(__this /* static, unused */, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
+#define Dictionary_2_CopyTo_m1556918174(__this, ___array0, ___index1, method) ((  void (*) (Dictionary_2_t3925743198 *, KeyValuePair_2U5BU5D_t1340091265*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m1577872051_gshared)(__this, ___array0, ___index1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::Resize()
+#define Dictionary_2_Resize_m2453436622(__this, method) ((  void (*) (Dictionary_2_t3925743198 *, const MethodInfo*))Dictionary_2_Resize_m2554543257_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::Add(TKey,TValue)
+#define Dictionary_2_Add_m1590030481(__this, ___key0, ___value1, method) ((  void (*) (Dictionary_2_t3925743198 *, IntPtr_t, VideoPlayer_t3930598658 *, const MethodInfo*))Dictionary_2_Add_m1110611990_gshared)(__this, ___key0, ___value1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::Clear()
+#define Dictionary_2_Clear_m3579494613(__this, method) ((  void (*) (Dictionary_2_t3925743198 *, const MethodInfo*))Dictionary_2_Clear_m4275492778_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::ContainsKey(TKey)
+#define Dictionary_2_ContainsKey_m3984299792(__this, ___key0, method) ((  bool (*) (Dictionary_2_t3925743198 *, IntPtr_t, const MethodInfo*))Dictionary_2_ContainsKey_m797573136_gshared)(__this, ___key0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+#define Dictionary_2_GetObjectData_m2013028168(__this, ___info0, ___context1, method) ((  void (*) (Dictionary_2_t3925743198 *, SerializationInfo_t2185721892 *, StreamingContext_t2761351129 , const MethodInfo*))Dictionary_2_GetObjectData_m3260762013_gshared)(__this, ___info0, ___context1, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::OnDeserialization(System.Object)
+#define Dictionary_2_OnDeserialization_m2355859484(__this, ___sender0, method) ((  void (*) (Dictionary_2_t3925743198 *, Il2CppObject *, const MethodInfo*))Dictionary_2_OnDeserialization_m4251345639_gshared)(__this, ___sender0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::Remove(TKey)
+#define Dictionary_2_Remove_m1793580504(__this, ___key0, method) ((  bool (*) (Dictionary_2_t3925743198 *, IntPtr_t, const MethodInfo*))Dictionary_2_Remove_m360345312_gshared)(__this, ___key0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::TryGetValue(TKey,TValue&)
+#define Dictionary_2_TryGetValue_m57377304(__this, ___key0, ___value1, method) ((  bool (*) (Dictionary_2_t3925743198 *, IntPtr_t, VideoPlayer_t3930598658 **, const MethodInfo*))Dictionary_2_TryGetValue_m1499285609_gshared)(__this, ___key0, ___value1, method)
+// TKey System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::ToTKey(System.Object)
+#define Dictionary_2_ToTKey_m3753323476(__this, ___key0, method) ((  IntPtr_t (*) (Dictionary_2_t3925743198 *, Il2CppObject *, const MethodInfo*))Dictionary_2_ToTKey_m3985105257_gshared)(__this, ___key0, method)
+// TValue System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::ToTValue(System.Object)
+#define Dictionary_2_ToTValue_m1809001008(__this, ___value0, method) ((  VideoPlayer_t3930598658 * (*) (Dictionary_2_t3925743198 *, Il2CppObject *, const MethodInfo*))Dictionary_2_ToTValue_m2227296873_gshared)(__this, ___value0, method)
+// System.Boolean System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+#define Dictionary_2_ContainsKeyValuePair_m3981920948(__this, ___pair0, method) ((  bool (*) (Dictionary_2_t3925743198 *, KeyValuePair_2_t3824523904 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m3568606403_gshared)(__this, ___pair0, method)
+// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::GetEnumerator()
+#define Dictionary_2_GetEnumerator_m1354738037(__this, method) ((  Enumerator_t948099294  (*) (Dictionary_2_t3925743198 *, const MethodInfo*))Dictionary_2_GetEnumerator_m3589629060_gshared)(__this, method)
+// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<System.IntPtr,EasyAR.VideoPlayer>::<CopyTo>m__0(TKey,TValue)
+#define Dictionary_2_U3CCopyToU3Em__0_m247020972(__this /* static, unused */, ___key0, ___value1, method) ((  DictionaryEntry_t1751606614  (*) (Il2CppObject * /* static, unused */, IntPtr_t, VideoPlayer_t3930598658 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m3242387411_gshared)(__this /* static, unused */, ___key0, ___value1, method)
