@@ -10,6 +10,11 @@
 #import "EnterUnityViewController.h"
 
 @interface HomeViewController : UIViewController
+{
+    UIButton *scanButton;
+}
+@property(nonatomic,retain)IBOutlet UIButton *scanButton;
 - (IBAction)jumpToEnterUnityVC:(id)sender;
+- (IBAction)jumpToAboutUs:(id)sender;
 
 @end

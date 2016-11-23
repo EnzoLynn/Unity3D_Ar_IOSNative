@@ -13,10 +13,21 @@
 @end
 
 @implementation HomeViewController
+@synthesize scanButton = scanButton;
+
 
 - (void)viewDidLoad {
+    
+    self.scanButton.layer.cornerRadius = 110.0;
+    self.scanButton.backgroundColor = [UIColor colorWithRed:0 green:191 blue:147 alpha:1];
+    [self.scanButton.layer setMasksToBounds:YES];
+    [self.scanButton.layer setCornerRadius:110.0];
+    scanButton.layer.borderWidth =3 ;
+    scanButton.layer.borderColor = [[UIColor blackColor] CGColor];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -72,6 +83,10 @@
 
 }
 
+- (IBAction)jumpToAboutUs:(id)sender{
+    EnterUnityViewController *enterVC = [[EnterUnityViewController alloc]init];
+    [self presentViewController:enterVC animated:nil completion:nil];
+}
 
 /**
  *  返回键函数

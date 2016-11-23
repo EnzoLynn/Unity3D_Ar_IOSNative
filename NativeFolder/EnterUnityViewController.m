@@ -35,9 +35,26 @@
 }
 */
 
-- (IBAction)startUnity:(id)sender {
-    [MyDataManager sharedManager].isInMyHomeView = true;
+- (IBAction)callUs:(id)sender {
+    UIAlertController *alertCall = [UIAlertController alertControllerWithTitle:@"CALL US" message:@"Call US" preferredStyle:UIAlertControllerStyleAlert];
+    [self presentViewController:alertCall animated:YES completion:nil];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertControllerStyleAlert handler:nil];
+    [alertCall addAction:okAction];
+}
 
+- (IBAction)visitUs:(id)sender {
+    UIAlertController *alertCall = [UIAlertController alertControllerWithTitle:@"VISIT US" message:@"Visit US" preferredStyle:UIAlertControllerStyleAlert];
+    [self presentViewController:alertCall animated:YES completion:nil];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertControllerStyleAlert handler:nil];
+    [alertCall addAction:okAction];
+}
+
+- (IBAction)startUnity:(id)sender {
+    //[MyDataManager sharedManager].isInMyHomeView = true;
+    UIAlertController *alertCall = [UIAlertController alertControllerWithTitle:@"EMAIL US" message:@"Email US" preferredStyle:UIAlertControllerStyleAlert];
+    [self presentViewController:alertCall animated:YES completion:nil];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertControllerStyleAlert handler:nil];
+    [alertCall addAction:okAction];
 //    if([MyDataManager sharedManager].isRestartInUnity)
 //    {
 //        //判断是否是第一次启动unity
@@ -67,7 +84,12 @@
 //    }
 
 }
+- (IBAction)backHome:(id)sender {
+    HomeViewController *homeVC = [[HomeViewController alloc]init];
+    [self presentViewController:homeVC animated:nil completion:nil];
 
+}
+ 
 /**
  *  返回键函数
  */
